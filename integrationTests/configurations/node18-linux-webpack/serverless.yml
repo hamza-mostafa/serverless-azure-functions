@@ -1,11 +1,11 @@
-service: nd16-lin-web
+service: nd18-lin-web
 
 provider:
   name: azure
   prefix: int
   stage: qa
   region: West Europe
-  runtime: nodejs16
+  runtime: nodejs18
   os: linux
   apim: true
 

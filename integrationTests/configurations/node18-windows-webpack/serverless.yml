@@ -1,11 +1,11 @@
-service: nd16-win-web
+service: nd18-win-web
 
 provider:
   name: azure
   prefix: int
   stage: qa
   region: West Europe
-  runtime: nodejs16
+  runtime: nodejs18s
   os: windows
   apim: true
 

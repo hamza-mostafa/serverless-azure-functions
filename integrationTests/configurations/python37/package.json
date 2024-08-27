@@ -1,5 +1,5 @@
 {
-  "name": "az-func-python",
+  "name": "az-func-python-37",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "azure-functions-core-tools": "^2.7.1585"
+    "azure-functions-core-tools": "^2.7.1585",
+    "serverless-azure-functions": "file:../../.."
   }
 }
