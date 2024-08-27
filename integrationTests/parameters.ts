@@ -114,10 +114,46 @@ export const defaultParameters: ConfigurationParameters = {
     runtime: "node v18.",
     region: "weur",
   },
+  "node18-linux-webpack": {
+    serviceName: "nd18-lin-web",
+    configName: "node18-linux-webpack",
+    runtime: "node v18.",
+    region: "weur",
+  },
   "node18-windows": {
     serviceName: "nd18-win",
     configName: "node18-windows",
     runtime: "node v18.",
+    region: "weur",
+  },  
+  "node18-windows-webpack": {
+    serviceName: "nd18-win-web",
+    configName: "node18-windows-webpack",
+    runtime: "node v18.",
+    region: "weur",
+  },  
+  "node20-linux": {
+    serviceName: "nd20-lin",
+    configName: "node20-linux",
+    runtime: "node v20.",
+    region: "weur",
+  },
+  "node20-linux-webpack": {
+    serviceName: "nd20-lin-web",
+    configName: "node20-linux-webpack",
+    runtime: "node v20.",
+    region: "weur",
+  },
+  "node20-windows": {
+    serviceName: "nd20-win",
+    configName: "node20-windows",
+    runtime: "node v20.",
+    region: "weur",
+  },  
+  "node20-windows-webpack": {
+    serviceName: "nd20-win-web",
+    configName: "node20-windows-webpack",
+    runtime: "node v20.",
     region: "weur",
   },
   "python36": {
